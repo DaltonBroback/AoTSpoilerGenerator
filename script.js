@@ -1,48 +1,48 @@
 
       var characters = [
         // "[TITAN]",
-        "Eren", //
-        "Mikasa", //
-        "Armin", //
-        "Levi",//
-        "Erwin",//
-        "Hange",//
-        "Jean",//
-        "Marco",//
-        "Connie",//
-        "Sasha",//
-        "Christa",//
-        "Historia", //
-        "Ymir", //
-        "Reiner", //
-        "Annie", //
-        "Bertholdt", //
+        "Eren",
+        "Mikasa",
+        "Armin",
+        "Levi",
+        "Erwin",
+        "Hange",
+        "Jean",
+        "Marco",
+        "Connie",
+        "Sasha",
+        "Christa",
+        "Historia",
+        "Ymir",
+        "Reiner",
+        "Annie",
+        "Bertholdt",
         "Marcel",
-        "Porco",//
-        "Pieck",//
-        "Zeke",//
-        "Dot Pixis",//
-        "Hannes",//
-        "Zackly",//
-        "Rod Reiss",//
-        "Kenny Ackerman",//
-        "Nile Dok",//
-        "Petra",//
-        "Miche",//
-        "Ilse",//
-        "Moblit",//
-        "Ymir Fritz",//
-        "Eren Kruger",//
-        "Grisha Jaeger",//
-        "Dina Fritz",//
-        "Carla Jaeger",//
-        "Keith Shadis",//
-        "Floch",//
-        "Falco",//
-        "Hitch",//
-        "Marlowe",//
-        "Gabi",//
-        "Colt",//
+        "Porco",
+        "Pieck",
+        "Zeke",
+        "Dot Pixis",
+        "Hannes",
+        "Zackly",
+        "Rod Reiss",
+        "Kenny Ackerman",
+        "Nile Dok",
+        "Petra",
+        "Miche",
+        "Ilse",
+        "Moblit",
+        "Ymir Fritz",
+        "Eren Kruger",
+        "Grisha Jaeger",
+        "Dina Fritz",
+        "Carla Jaeger",
+        "Keith Shadis",
+        "Floch",
+        "Falco",
+        "Hitch",
+        "Marlowe",
+        "Gabi",
+        "Colt",
         "Frieda",
         "Uri Reiss",
 
@@ -97,9 +97,9 @@
 
       var sides = [
         "Marley",
-        "Survey Corps/Scouts",
-        "Wall Garrison",
-        "Military Police",
+        "the Survey Corps/Scouts",
+        "the Wall Garrison",
+        "the Military Police",
         "the East Asian Clan",
         "the Mid-East Kingdom",
         "a giant crystal",
