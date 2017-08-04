@@ -167,7 +167,6 @@
         }
 
         var spoiler = "<p>"+character + " " + statement + ending+"</p>";
-        console.log(spoiler);
         document.getElementById("spoiler").innerHTML = spoiler;
         if(picName.indexOf(' ') > -1){
           newPic = picName.replace(" ", "_");
