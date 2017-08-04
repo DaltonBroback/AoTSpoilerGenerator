@@ -100,8 +100,8 @@ var sides = [
   "the Survey Corps/Scouts",
   "the Wall Garrison",
   "the Military Police",
-  "the East Asian Clan",
-  "the Mid-East Kingdom",
+  "the Great East Sea Clan",
+  "the Mid-East Allied Forces",
   "a giant crystal",
   "the Warriors"
 ];
@@ -151,7 +151,7 @@ function getSpoiler(){
     statement = newStatment;
   };
   if(character == "Bertholdt"){
-    var BertValue = Math.floor(Math.random() * 10);
+    var BertValue = Math.floor(Math.random() * 5);
     if(BertValue == 0){
       var randomBert = Math.floor(Math.random() * 12);
       character = Berts[randomBert];
@@ -171,8 +171,8 @@ function getSpoiler(){
     ending = ". I guess they were out of potatoes."
   }
   if(character == "Zackly" && statement == "gets tired of all this shit and quits"){
-    var shitVal = Math.floor(Math.random() * 2);
-    if(shitVal == 0){
+    var artVal = Math.floor(Math.random() * 2);
+    if(artVal == 0){
       statement = " gets tired of the lack of shit and quits to pursue his art full time"
     }
   }
