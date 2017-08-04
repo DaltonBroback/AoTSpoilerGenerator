@@ -139,7 +139,7 @@
           statement = newStatment;
         };
         if(statement.indexOf('[CHARACTER]') > -1){
-          randomCharacter = Math.floor(Math.random() * 36)
+          randomCharacter = Math.floor(Math.random() * 44);
           newStatment = statement.replace("[CHARACTER]", characters[randomCharacter]);
           statement = newStatment;
         };
