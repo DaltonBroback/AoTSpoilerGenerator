@@ -43,6 +43,9 @@
         "Marlowe",//
         "Gabi",//
         "Colt",//
+        "Frieda",
+        "Uri Reiss",
+
       ];
       var statements = [
         "is [TITAN]",
@@ -118,7 +121,7 @@
       ];
 
       function getSpoiler(){
-        var randomCharacter = Math.floor(Math.random() * 42);
+        var randomCharacter = Math.floor(Math.random() * 44);
         // var randomCharacter = 41;
         var randomStatement = Math.floor(Math.random() * 29);
         var character = characters[randomCharacter];
