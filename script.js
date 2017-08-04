@@ -53,6 +53,7 @@
         "turns out to be [CHARACTER]",
         "kills [CHARACTER]",
         "is killed by [CHARACTER]",
+        "is killed by [TITAN]",
         "eats [CHARACTER]",
         "defects to [SIDE]",
         "gets intimate with [CHARACTER]",
@@ -123,7 +124,7 @@
       function getSpoiler(){
         var randomCharacter = Math.floor(Math.random() * 44);
         // var randomCharacter = 41;
-        var randomStatement = Math.floor(Math.random() * 29);
+        var randomStatement = Math.floor(Math.random() * 30);
         var character = characters[randomCharacter];
         var picName = character;
         var statement = statements[randomStatement];
