@@ -53,7 +53,7 @@
         "eats [CHARACTER]",
         "defects to [SIDE]",
         "gets intimate with [CHARACTER]",
-        "turns into a titan",
+        "turns into a Titan",
         "was secretly alive the whole time",
         "is the new main character",
         "is best girl",
@@ -73,7 +73,7 @@
         "is PATHS",
         "becomes one with PATHS",
         "time travels",
-        "wakes up to discover it was all a dream, there were never any titans, and school starts in five minutes"
+        "wakes up to discover it was all a dream, there were never any Titans, and school starts in five minutes"
       ];
 
       var titan = [
