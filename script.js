@@ -175,4 +175,3 @@
         var pic = "<img src = 'img/"+picName+".png'></img>"
         document.getElementById("pic").innerHTML = pic;
       };
-      getSpoiler();
