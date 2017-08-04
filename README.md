@@ -1,3 +1,1 @@
-# AoTSpoilerGenerator
-# AoTSpoilerGenerator
-# AoTSpoilerGenerator
+Attack on Titan Spoiler Generator
