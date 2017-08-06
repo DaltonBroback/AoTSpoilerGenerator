@@ -45,7 +45,6 @@ var characters = [
   "Colt",
   "Frieda",
   "Uri Reiss",
-
 ];
 var statements = [
   "is [TITAN]",
@@ -77,10 +76,12 @@ var statements = [
   "is PATHS",
   "becomes one with PATHS",
   "time travels",
-  "wakes up to discover it was all a dream, there were never any Titans, and school starts in five minutes"
+  "wakes up to discover it was all a dream, there were never any Titans, and school starts in five minutes",
+  "accidentally walks in on [CHARACTER] and [OTHERCHARACTER]",
+  "sings [SONG] in the shower",
 ];
 
-var titan = [
+var titans = [
   "the Founding Titan",
   "the Female Titan",
   "the Beast Titan",
@@ -121,39 +122,58 @@ var Berts = [
   "Benedict Cumberbolt",
 ];
 
+var songs = [
+  "Guren no Yumiya",
+  "Jiyuu no Tsubasa",
+  "Shinzou wo Sasageyo",
+  // "The Reluctant Warriors",
+  // "Barricades",
+]
+
+
 function getSpoiler(){
-  var randomCharacter = Math.floor(Math.random() * 44);
-  // var randomCharacter = 43;
-  var randomStatement = Math.floor(Math.random() * 30);
-  // var randomStatement = 29;
+  var randomCharacter = Math.floor(Math.random() * characters.length);
+  // var randomCharacter = 22;
+  var randomStatement = Math.floor(Math.random() * statements.length);
+  // var randomStatement = statements.length-1;
   var character = characters[randomCharacter];
   var picName = character;
   var statement = statements[randomStatement];
 
   if(character == "[TITAN]"){
-    var randomTitan = Math.floor(Math.random() * 12)
-    newCharacter = character.replace("[TITAN]", titan[randomTitan]);
+    var randomTitan = Math.floor(Math.random() * titans.length)
+    newCharacter = character.replace("[TITAN]", titans[randomTitan]);
     character = newCharacter
   };
   if(statement.indexOf("[TITAN]") > -1){
-    var randomTitan = Math.floor(Math.random() * 12)
-    newStatment = statement.replace("[TITAN]", titan[randomTitan]);
+    var randomTitan = Math.floor(Math.random() * titans.length)
+    newStatment = statement.replace("[TITAN]", titans[randomTitan]);
     statement = newStatment;
   };
   if(statement.indexOf('[CHARACTER]') > -1){
-    randomCharacter = Math.floor(Math.random() * 44);
+    randomCharacter = Math.floor(Math.random() * characters.length);
     newStatment = statement.replace("[CHARACTER]", characters[randomCharacter]);
     statement = newStatment;
   };
+  if(statement.indexOf('[OTHERCHARACTER]') > -1){
+    randomCharacter = Math.floor(Math.random() * characters.length);
+    newStatment = statement.replace("[OTHERCHARACTER]", characters[randomCharacter]);
+    statement = newStatment;
+  };
   if(statement.indexOf('[SIDE]') > -1){
-    var randomSide = Math.floor(Math.random() * 8)
+    var randomSide = Math.floor(Math.random() * sides.length)
     newStatment = statement.replace("[SIDE]", sides[randomSide]);
+    statement = newStatment;
+  };
+  if(statement.indexOf('[SONG]') > -1){
+    var randomSong = Math.floor(Math.random() * songs.length)
+    newStatment = statement.replace("[SONG]", songs[randomSong]);
     statement = newStatment;
   };
   if(character == "Bertholdt"){
     var BertValue = Math.floor(Math.random() * 5);
     if(BertValue == 0){
-      var randomBert = Math.floor(Math.random() * 12);
+      var randomBert = Math.floor(Math.random() * Berts.length);
       character = Berts[randomBert];
     }
   }
@@ -171,10 +191,10 @@ function getSpoiler(){
     ending = ". I guess they were out of potatoes."
   }
   if(character == "Zackly" && statement == "gets tired of all this shit and quits"){
-    var artVal = Math.floor(Math.random() * 2);
-    if(artVal == 0){
+    // var artVal = Math.floor(Math.random() * 2);
+    // if(artVal == 0){
       statement = " gets tired of the lack of shit and quits to pursue his art full time"
-    }
+    // }
   }
 
   var spoiler = "<p>"+character + " " + statement + ending+"</p>";
