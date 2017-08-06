@@ -100,7 +100,7 @@ var sides = [
   "the Survey Corps/Scouts",
   "the Wall Garrison",
   "the Military Police",
-  "the Great East Sea Clan",
+  "the Great East Asian Clan",
   "the Mid-East Allied Forces",
   "a giant crystal",
   "the Warriors"
@@ -123,9 +123,9 @@ var Berts = [
 
 function getSpoiler(){
   var randomCharacter = Math.floor(Math.random() * 44);
-  // var randomCharacter = 22;
-  var randomStatement = Math.floor(Math.random() * 22);
-  // var randomStatement = 22;
+  // var randomCharacter = 43;
+  var randomStatement = Math.floor(Math.random() * 30);
+  // var randomStatement = 29;
   var character = characters[randomCharacter];
   var picName = character;
   var statement = statements[randomStatement];
