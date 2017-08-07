@@ -28,9 +28,13 @@ var characters = [
   "Kenny Ackerman",
   "Nile Dok",
   "Petra",
+  "Eld",
+  "Oruo",
+  "Gunther",
   "Miche",
   "Ilse",
   "Moblit",
+  "Pastor Nick",
   "Ymir Fritz",
   "Eren Kruger",
   "Grisha Jaeger",
@@ -44,7 +48,7 @@ var characters = [
   "Gabi",
   "Colt",
   "Frieda",
-  "Uri Reiss",
+  "Uri Reiss"
 ];
 var statements = [
   "is [TITAN]",
