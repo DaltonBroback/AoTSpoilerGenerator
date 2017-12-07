@@ -50,6 +50,7 @@ var characters = [
   {"name": "Frieda","manga spoiler":true,"gender":"female"},
   {"name": "Uri Reiss","manga spoiler":true,"gender":"male"},
   {"name": "Villy Tybur","manga spoiler":true,"gender":"male"},
+  {"name": "General Magath","manga spoiler":true,"gender":"male"},
   {"name": "Amputee-kun","manga spoiler":true,"gender":"male"}
 ];
 
@@ -86,7 +87,7 @@ var statements = [
   {"text": "wakes up to discover it was all a dream, there were never any Titans, and school starts in five minutes","manga spoiler":false,"img": "School"},
   {"text": "sings [SONG] in the shower","manga spoiler":false,"img": null},
   {"text": "challenges [OTHERCHARACTER] to a cooking contest","manga spoiler":false,"img": "Cooking"},
-  {"text": "travels to the world of Dragonball Super in a poorly concieved crossever special","manga spoiler":false,"img": "DBSuper"}
+  {"text": "travels to the world of Dragonball Super in a poorly concieved crossover special","manga spoiler":false,"img": "DBSuper"}
 ];
 
 var titans = [
